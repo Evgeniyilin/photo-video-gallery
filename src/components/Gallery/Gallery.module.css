@@ -1,4 +1,9 @@
 .gallery {
     grid-area: c;
     background-color: grey;
+    overflow: auto;
+}
+
+.gallery::-webkit-scrollbar {
+    width: 0;
 }

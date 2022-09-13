@@ -4,7 +4,8 @@ import s from './Navbar.module.css'
 const Navbar = () => {
     return (
         <div className={s.navbar}>
-            Navbar
+            <p>Photo</p>
+            <p>Albums</p>
         </div>
     );
 };
